@@ -21,12 +21,6 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://twilio-applica.herokuapp.com/journeybuilder/execute",
-            "verb": "POST",
-            "body": "",
-            "format": "json",
-            "useJwt": false,
-            "timeout": 2000
         }
     },
     "configurationArguments": {
@@ -61,21 +55,8 @@
                             "isNullable": true,
                             "direction": "out"   
                         }
-                    },                    
-                    {
-                        "from": {
-                            "dataType": "Phone",
-                            "isNullable": true,
-                            "direction": "out"   
-                        }
-                    },                    
-                    {
-                        "to": {
-                            "dataType": "Phone",
-                            "isNullable": true,
-                            "direction": "out"   
-                        }
-                    },
+                    },                                     
+               
                     {
                         "body": {
                             "dataType": "String",
