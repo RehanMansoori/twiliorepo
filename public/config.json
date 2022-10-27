@@ -21,7 +21,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://twilio-applica.herokuapp.com/",
+            "url": "https://twilio-applica.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
