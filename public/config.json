@@ -31,38 +31,8 @@
     },
     "configurationArguments": {
       "applicationExtensionKey": "5a2e916c-27b0-4079-b498-846ac48f9b67",
-       "save": {
-           "url": "https://twilio-applica.herokuapp.com/save",
-            "verb": "POST",
-            "body": "",
-            "format": "json",
-            "useJwt": false,
-            "timeout": 2000
-       },
-       "publish": {
-           "url": "https://twilio-applica.herokuapp.com/publish",
-            "verb": "POST",
-            "body": "",
-            "format": "json",
-            "useJwt": false,
-            "timeout": 2000
-       },
-       "validate": {
-           "url": "https://twilio-applica.herokuapp.com/validate",
-            "verb": "POST",
-            "body": "",
-            "format": "json",
-            "useJwt": false,
-            "timeout": 2000
-       },
-       "stop": {
-           "url": "https://twilio-applica.herokuapp.com/stop",
-            "verb": "POST",
-            "body": "",
-            "format": "json",
-            "useJwt": false,
-            "timeout": 2000
-       }
+      
+     
     },
     "wizardSteps": [
        { "label": "Create SMS Message", "key": "step1" }
