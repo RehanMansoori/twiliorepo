@@ -32,7 +32,7 @@
     "configurationArguments": {
       "applicationExtensionKey": "5a2e916c-27b0-4079-b498-846ac48f9b67",
        "save": {
-           "url": "https://twilio-applica.herokuapp.com/",
+           "url": "https://twilio-applica.herokuapp.com/activity/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -40,7 +40,7 @@
             "timeout": 2000
        },
        "publish": {
-           "url": "https://twilio-applica.herokuapp.com/",
+           "url": "https://twilio-applica.herokuapp.com/activity/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -48,7 +48,7 @@
             "timeout": 2000
        },
        "validate": {
-           "url": "https://twilio-applica.herokuapp.com/",
+           "url": "https://twilio-applica.herokuapp.com/activity/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -56,7 +56,7 @@
             "timeout": 2000
        },
        "stop": {
-           "url": "https://twilio-applica.herokuapp.com/",
+           "url": "https://twilio-applica.herokuapp.com/activity/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
